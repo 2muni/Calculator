@@ -33,7 +33,20 @@ public class Control implements ActionListener{
 		case "¡¾":	m.invert();
 					v.tField.setText(m.answer);
 					break;
+		//arithmetic operation
+		case "¡À":
+		case "¡¿":
+		case "-":
+		case "+":	m.calculate(button.getText());
+					v.tField.setText("0");
+					v.processField.setText(m.process);
+					break;
+		//additional operation
 		case "¡î":	m.squareRoot(button.getText());
+					v.tField.setText(m.answer);
+					v.processField.setText(m.process);
+					break;
+		case "¥ð":	m.pi();
 					v.tField.setText(m.answer);
 					v.processField.setText(m.process);
 					break;
@@ -41,14 +54,6 @@ public class Control implements ActionListener{
 		case "cos":;
 		case "tan":	m.trigonometric(button.getText());
 					v.tField.setText(m.answer);
-					v.processField.setText(m.process);
-					break;
-		//arithmetic operation
-		case "¡À":
-		case "¡¿":
-		case "-":
-		case "+":	m.calculate(button.getText());
-					v.tField.setText("0");
 					v.processField.setText(m.process);
 					break;
 		//circulate

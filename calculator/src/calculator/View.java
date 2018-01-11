@@ -10,12 +10,12 @@ public class View extends JFrame {
 	protected JTextField processField;
 	private JButton[] buttons;
 	private String[] labels = {
-			"x©÷","x©ú","sin","cos", "tan",
-			"", "CE", "", "¡ç", "¡À",
-			"", "7", "8", "9", "¡¿",
-			"¡î", "4", "5", "6", "-", 
-			"¥ð", "1", "2", "3", "+", 
-			"n!", "¡¾", "0", ".", "="	};
+			"¡î","sin","cos", "tan",
+			"¥ð", "CE", "¡ç", "¡À",
+			"7", "8", "9", "¡¿",
+			"4", "5", "6", "-", 
+			"1", "2", "3", "+", 
+			"¡¾", "0", ".", "="	};
 	
 	ActionListener ctr;
 	
@@ -36,7 +36,7 @@ public class View extends JFrame {
 		processField.setFont(new Font("¸íÁ¶", Font.PLAIN, 36));
 		
 		panel = new JPanel();
-		panel.setLayout(new GridLayout(0, 5, 3, 3));
+		panel.setLayout(new GridLayout(0, 4, 3, 3));
 		
 		buttons = new JButton[labels.length];
 		int index = 0;

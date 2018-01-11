@@ -1,6 +1,7 @@
 package calculator;
 /*
- * calculator v2.02
+ * calculator v2.04
+ * 
  * 2018-01-10
  * created by 2muni
  */

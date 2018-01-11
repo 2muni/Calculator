@@ -45,6 +45,16 @@ public class Model {
 				answer = "-" + answer;
 		}catch(StringIndexOutOfBoundsException sie) {}
 	}
+	//click "¥ð" button
+	public void pi() {
+		if(numA==0) {
+			numA = Math.PI;
+			process = process+numA;
+		}else {
+			numB = Math.PI;
+			process = process+numB;
+		}
+	}
 	//click "¡î" button
 	public void squareRoot(String function) {
 		if(numA==0) {
