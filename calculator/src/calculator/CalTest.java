@@ -2,7 +2,7 @@ package calculator;
 /*
  * calculator v2.04
  * 
- * 2018-01-10
+ * 2018-01-11
  * created by 2muni
  */
 public class CalTest {
